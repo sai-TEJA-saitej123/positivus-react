@@ -122,6 +122,32 @@ button:hover {
   background: #f3f3f3;
   padding: 40px 60px;
   width: 100%;
-  height:fit-content;
+  height: fit-content;
   overflow: hidden;
+}
+.team-info-card {
+  position: relative;
+  width: 100%;
+  padding: 40px 35px;
+}
+.top {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+  margin-bottom: 28px;
+}
+.profile-info {
+  margin-bottom: 1px;
+}
+
+.wrapper4 {
+  width: fit-content;
+  display: flex;
+  flex-basis: calc(33% - 40px);
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-direction: row;
+  min-width: 320px;
+  height: 380px;
+  border: 2px red solid;
 }
