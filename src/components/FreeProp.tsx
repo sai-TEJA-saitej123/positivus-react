@@ -19,6 +19,7 @@ const FreeProp: React.FC = () => {
                 <div><p className='desc'>  Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
                 </div>
             </div>
+            
         </>)
 }
 

@@ -10,9 +10,9 @@ const Hero: React.FC = () => {
                         Navigating the <br /> digital  landscape <br /> for success
                     </h2>
                     <p className="text-[18px]">Our digital marketing agency helps businesses grow and <br /> succeed online through a range of services including SEO, <br /> PPC, social media marketing, and content creation.</p>
-                    <button className="p-3 w-[264px] h-[68px] text-[20px] mt-8">Book a consultation</button>
+                    <button className="p-3 w-[264px] h-[68px] text-[20px] mt-8 consultation">Book a consultation</button>
                 </div>
-                <div>
+                <div >
                     <img src={illustration} alt="" />
                 </div>
             </div>

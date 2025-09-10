@@ -1,4 +1,5 @@
 import Accordion from './components/Accordion';
+import CaseStudies from './components/CaseStudies';
 import Companies from './components/Companies';
 import FreeProp from './components/FreeProp';
 import Hero from './components/Hero';
@@ -10,14 +11,15 @@ import Testimonials from './components/Testimonials';
 function App() {
   return (
     <div className=" bg-white mx-14 ">
-      <Navbar/> 
-      <Hero/>
-      <Companies/>
-      <Services/>
-      <FreeProp/>
+      <Navbar />
+      <Hero />
+      <Companies />
+      <Services />
+      <FreeProp />
+      <CaseStudies />
+      <Accordion />
+      <Team />
       <Testimonials/>
-      <Accordion/>
-      <Team/>
     </div>
   );
 }

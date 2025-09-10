@@ -11,13 +11,13 @@ nav {
   border: 2px black solid;
 }
 
-button {
+.consultation {
   border: 2px black solid;
   border-radius: 1rem;
   background: #191a23;
   color: white;
 }
-button:hover {
+.consultation:hover {
   background: #b9ff66;
   transition: 0.5s ease-in-out;
 }

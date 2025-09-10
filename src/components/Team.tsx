@@ -69,21 +69,21 @@ const Team: React.FC = () => {
 
 
         <>
-            <div className='flex gap-4 '> 
+            <div className='flex gap-4 my-7 '> 
                 <div>
                     <h3 className='bg-[#b9ff66] w-fit h-[51px] working text-black text-3xl font-bold '>The Team </h3>
 
                 </div>
                 <div>
-                    <p className='my-auto'>Meet the skilled and experienced team behind our successful digital marketing strategies</p>
+                    <p className='my-auto'>Meet the skilled and experienced team behind our successful digital  <br />marketing strategies</p>
                 </div>
             </div>
             {/* teams div */}
-            <div className='grid grid-cols-3 grid-rows-3 gap-4'>
+            <div className='grid grid-cols-3 grid-rows-2 gap-4 '>
                 {
                     list.map((item, index) => (
                         <div>
-                            <div className="max-w-sm p-6 rounded-2xl shadow-md border-2 border-black bg-white my-7 " key={index}>
+                            <div className="max-w-lg p-6 rounded-2xl  border-2 border-black bg-white my-7  " key={index}>
                                 {/* <!-- Profile Section --> */}
                                 <div className="flex items-center justify-between">
                                     {/* <!-- Profile image with background shape --> */}
@@ -101,8 +101,8 @@ const Team: React.FC = () => {
 
                                     {/* <!-- Name & Title --> */}
                                     <div className="mt-4">
-                                        <h2 className="font-bold text-lg">{item.founderName}</h2>
-                                        <p className="text-gray-600 text-sm">{item.role}</p>
+                                        <h2 className="font-bold text-[20px]">{item.founderName}</h2>
+                                        <p className="text-gray-600 text-[18px] w-fit">{item.role}</p>
                                     </div>
                                     {/* <!-- LinkedIn icon --> */}
 
@@ -115,10 +115,10 @@ const Team: React.FC = () => {
 
 
                                 {/* <!-- Divider --> */}
-                                <div className="border-t my-4"></div>
+                                <div className="border-t border-x-gray-800 my-4"></div>
 
                                 {/* <!-- Description --> */}
-                                <p className="text-gray-700 text-sm leading-relaxed">
+                                <p className="text-gray-700 text-[18px] leading-relaxed w-fit">
                                     {item.roleDetails}
                                 </p>
                             </div>
@@ -126,6 +126,13 @@ const Team: React.FC = () => {
                         </div>
                     ))
                 }
+            </div>
+
+            {/* see all team btn */}
+            <div className='relative'>
+                <div>
+                    <button className='w-[269px] h-[68px] bg-[#191A23] text-white absolute right-10 rounded-xl'>See all team</button>
+                </div>
             </div>
         </>
     )
