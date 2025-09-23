@@ -14,9 +14,15 @@ const ContactUs: React.FC = () => {
 
 
             <div className="px-6 md:px-20 py-10">
-                <h3 className="bg-[#b9ff66] w-fit px-4 py-2 text-black text-3xl font-bold rounded-md mb-8">
-                    Contact Us
-                </h3>
+                <div className='flex gap-5'>
+
+                    <h3 className="bg-[#b9ff66] w-fit px-4 py-2 text-black text-3xl font-bold rounded-md mb-8">
+                        Contact Us
+                    </h3>
+                    <div>
+                        <p className='my-auto'>Connect with Us: Let's Discuss Your <br /> Digital Marketing Needs</p>
+                    </div>
+                </div>
 
                 <div className="flex flex-col lg:flex-row justify-between bg-[#F3F3F3] rounded-[45px] px-16 py-28 relative overflow-hidden md:p-14 gap-10">
                     {/* Form Section */}
@@ -52,7 +58,7 @@ const ContactUs: React.FC = () => {
                                 type="text"
                                 name="name"
                                 placeholder="Name"
-                                className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black"
+                                className="w-full   rounded-md px-4 py-2 border-black border-2"
                             />
                         </div>
 
@@ -64,7 +70,7 @@ const ContactUs: React.FC = () => {
                                 name="email"
                                 placeholder="Email"
                                 required
-                                className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black"
+                                className="w-full   rounded-md  border-black border-2 px-5 py-8"
                             />
                         </div>
 
@@ -76,14 +82,14 @@ const ContactUs: React.FC = () => {
                                 placeholder="Message"
                                 required
                                 rows={5}
-                                className="w-full border border-gray-300 rounded-md px-4 py-2 resize-none focus:outline-none focus:ring-2 focus:ring-black"
+                                className="w-full  rounded-md px-4 py-2 resize-none border-black border-2 min-h-48"
                             />
                         </div>
 
                         {/* Submit Button */}
                         <button
                             type="submit"
-                            className="bg-black text-white px-6 py-2 rounded-md hover:bg-gray-800 transition"
+                            className="bg-black text-white px-6 py-2 rounded-md hover:bg-gray-800 transition  "
                         >
                             Send Message
                         </button>
@@ -94,7 +100,7 @@ const ContactUs: React.FC = () => {
                         <img
                             src={contactDesign}
                             alt="Contact Design"
-                            className="max-w-full h-auto object-contain absolute py-[60px] right-0 translate-x-2/4"
+                            className="max-w-full h-auto object-contain absolute py-[60px] right-0 translate-x-2/4 z-10"
                         />
                     </div>
                 </div>
