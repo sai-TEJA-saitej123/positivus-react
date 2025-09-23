@@ -26,7 +26,7 @@ const Companies: React.FC = () => {
         <>
             <div>
                 <ul className="flex  mt-6 justify-evenly">
-                    {items.map(item=>(
+                    {items.map(item => (
                         <li key={item.id}>
                             <img src={item.src} alt={item.alt} />
                         </li>

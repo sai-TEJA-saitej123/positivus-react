@@ -69,7 +69,7 @@ const Team: React.FC = () => {
 
 
         <>
-            <div className='flex gap-4 my-7 '> 
+            <div className='flex gap-4 my-7 '>
                 <div>
                     <h3 className='bg-[#b9ff66] w-fit h-[51px] working text-black text-3xl font-bold '>The Team </h3>
 

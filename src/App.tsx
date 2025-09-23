@@ -1,6 +1,7 @@
 import Accordion from './components/Accordion';
 import CaseStudies from './components/CaseStudies';
 import Companies from './components/Companies';
+import ContactUs from './components/ContactUs';
 import FreeProp from './components/FreeProp';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -10,7 +11,7 @@ import Testimonials from './components/Testimonials';
 
 function App() {
   return (
-    <div className=" bg-white mx-14 ">
+    <div className=" bg-white  max-w-screen-xl mx-auto ">
       <Navbar />
       <Hero />
       <Companies />
@@ -19,7 +20,8 @@ function App() {
       <CaseStudies />
       <Accordion />
       <Team />
-      <Testimonials/>
+      <Testimonials />
+      <ContactUs />
     </div>
   );
 }

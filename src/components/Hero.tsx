@@ -1,5 +1,5 @@
 import React from "react";
-import illustration from "../asessts/images/Illustration.svg"
+import heroDesign from "../asessts/images/HeroDesign.svg"
 const Hero: React.FC = () => {
     return (
         <>
@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
                     <button className="p-3 w-[264px] h-[68px] text-[20px] mt-8 consultation">Book a consultation</button>
                 </div>
                 <div >
-                    <img src={illustration} alt="" />
+                    <img src={heroDesign} alt="" />
                 </div>
             </div>
         </>)
