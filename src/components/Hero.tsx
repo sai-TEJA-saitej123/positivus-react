@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
                     <button className="p-2 w-[264px] h-[68px] text-[20px] mt-8 consultation bg-[#191a23] text-white  rounded-2xl semibold hover:bg-[#b9ff66] duration-100 ease-in-out border-black">Book a consultation</button>
                 </div>
                 <div >
-                    <img src={heroDesign} alt="" className="w-[600px] h-[515px] " />
+                    <img src={heroDesign} alt="" className="w-[600px] h-[515px] mt-6 " />
                 </div>
             </div>
         </>)
