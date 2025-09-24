@@ -9,11 +9,26 @@
     margin: 0 60px;
   }
 }
-nav {
-  border: 2px red solid;
+
+/* hamburger btn */
+.hamburger-btn {
+    aspect-ratio: 1;
+    background-color: transparent;
+    border: 0;
+    height: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
 }
-.navlinks {
-  border: 2px black solid;
+
+.hamburger-btn .hr {
+    background-color: #191A23;
+    width: 30px;
+    height: 5px;
+    transition: 0.2s;
 }
 
 .consultation {

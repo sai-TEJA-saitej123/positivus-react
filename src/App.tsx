@@ -12,7 +12,7 @@ import Testimonials from './components/Testimonials';
 
 function App() {
   return (
-    <div className=" bg-white  max-w-screen-xl mx-auto ">
+    <div className=" bg-white  w-full max-w-[1366px] mx-auto  min-h-dvh mt-[50px] flex flex-col justify-between">
       <Navbar />
       <Hero />
       <Companies />
