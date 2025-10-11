@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
   return (
     <>
 
-      <nav className="flex flex-col md:flex-row justify-between items-center   ">
+      <nav className="flex flex-col lg:flex-row justify-between items-center   ">
         {/* Logo Section */}
         <div className="flex gap-4 items-center">
           <img src={icon} alt="positivuslogo" className="h-9 w-9" />
@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
 
         {/* Navigation Links */}
         <div className={`w-full md:w-auto ${isOpen ? "block" : "hidden"} md:block`}>
-          <ul className="flex flex-col md:flex-row gap-6 md:gap-10 items-center text-lg mt-4 md:mt-0">
+          <ul className="flex flex-col md:flex-row gap-6 md:gap-10 items-center text-lg mt-4 md:mt-0 font-normal">
             <li>About</li>
             <li>Services</li>
             <li>Use Cases</li>
